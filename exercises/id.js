@@ -9,6 +9,7 @@
 // Your code :
 function id(argument){
     return argument
+    
 }
 
 //* Begin of tests
