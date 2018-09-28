@@ -11,6 +11,17 @@
 
 // Your code :
 
+function abs(n1){
+    if(n1>0){
+       return n1;
+    } if(n1===0){
+        return 0; 
+    } if(n1<0){
+        return -n1; 
+    }
+    
+}
+
 //* Begin of tests
 const assert = require('assert')
 

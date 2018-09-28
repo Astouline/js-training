@@ -11,6 +11,13 @@
 
 // Your code :
 
+function max(n1,n2){
+  if(n1>n2){
+    return n1;
+} if(n1<n2){
+    return n2;
+}
+}
 //* Begin of tests
 const assert = require('assert')
 

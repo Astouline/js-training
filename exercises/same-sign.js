@@ -9,6 +9,14 @@
 
 // Your code :
 
+function sameSign (n1,n2){
+    if(Math.sign(n1) === Math.sign(n2)){
+        return true; 
+    } else {
+        return false;
+}
+}
+
 //* Begin of tests
 const assert = require('assert')
 
